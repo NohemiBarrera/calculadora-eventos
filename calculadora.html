@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculadora</title>
+		<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/cyborg/bootstrap.min.css" rel="stylesheet" integrity="sha384-D9XILkoivXN+bcvB2kSOowkIvIcBbNdoDQvfBNsxYAIieZbx8/SI4NeUvrRGCpDi" crossorigin="anonymous">
+		<link rel="stylesheet" type="text/css" href="calculadora.css">
+		<script type="text/javascript" src="calculadora.js"></script>
+</head>
+<body>
+
+<h3 align="center">Calculadora</h3>
+
+	<table align="center">
+		<tbody>
+		<tr>
+			<td colspan="4">
+				<input type="text" id="textNum" value="0">
+			</td>
+		</tr>
+		<br>
+		<tr>
+			<td colspan="2">
+				<input type="button" value=" C  " onclick="teclaC()">
+			</td>
+			<td>
+				<input type="button" value="  ^  " onclick="operar(5)">
+			</td>
+			<td>
+				<input type="button" value="  *  " onclick="operar(3)">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="button" value="  1  " onclick="asignarNum('1')">
+			</td>
+			<td>
+				<input type="button" value="  2  " onclick="asignarNum('2')">
+			</td>
+			<td>
+				<input type="button" value="  3  " onclick="asignarNum('3')">
+			</td>
+			<td>
+				<input type="button" value="  -  " onclick="operar(2)">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="button" value="  4  " onclick="asignarNum('4')">
+			</td>
+			<td>
+				<input type="button" value="  5  " onclick="asignarNum('5')">
+			</td>
+			<td>
+				<input type="button" value="  6  " onclick="asignarNum('6')">
+			</td>
+			<td>
+				<input type="button" value="  + " onclick="operar(1)">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<input type="button" value="  7  " onclick="asignarNum('7')">
+			</td>
+			<td>
+				<input type="button" value="  8  " onclick="asignarNum('8')">
+			</td>
+			<td>
+				<input type="button" value="  9  " onclick="asignarNum('9')">
+			</td>
+			<td>
+				<input type="button" value="  /  " onclick="operar(4)">
+			</td>
+		</tr>
+		<tr>
+			<td>
+			</td>
+			<td colspan="2">
+				<input type="button" value="  0  " onclick="asignarNum('0')">
+			</td>
+			<td>
+				<input type="button" value="  = " onclick="igual()">
+			</td>
+		</tr>
+		</tbody>
+	</table>
+</body>
+</html>
