@@ -46,6 +46,15 @@ function igual(){
         case 5:
             numero1 = Math.pow(numero2, numero1);
         break;
+        case 6:
+            numero1 = Math.sqrt(numero2, numero1);
+        break;
+        case 7:
+            numero1 = Math.log10(numero2);
+        break;
+        case 8:
+            numero1 = Math.cos(numero2);
+        break;
     }
     document.getElementById("textNum").value = numero1;
     numero2 = parseInt(numero1);
